@@ -46,7 +46,7 @@ namespace JSONreader
         {
             var serializer = new JavaScriptSerializer();
             var webClient = new WebClient();
-			var userGet = "/*username here*/"
+            var userGet = "g0pats";
             json = webClient.DownloadString("https://www.bitcoinpool.com/user.php?u="+userGet+"&json=1");
 
             var newObject = new RootObject();

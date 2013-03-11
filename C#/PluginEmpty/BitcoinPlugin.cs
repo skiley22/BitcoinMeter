@@ -74,10 +74,7 @@ namespace BitcoinPlugin
             user = ser.getUser();
             pool = ser.getPool();
 
-            switch (Type)
-            {
-
-        }
+            switch(Type) {}
 
             return 0.0;
         }
